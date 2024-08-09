@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/DELL4/MAUI/Internal/hrmsportal/hrms_portal/hrms_portal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/Entitlements.xcent /Users/DELL4/MAUI/Internal/hrmsportal/hrms_portal/hrms_portal/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/hrms_portal.app
