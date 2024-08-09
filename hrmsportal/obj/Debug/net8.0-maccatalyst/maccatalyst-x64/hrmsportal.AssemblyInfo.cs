@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("hrmsportal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+327bf0b459d8ca9ee005e422590cedb6c4cfa9a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+21fc9e82371724861b370959c686aa9c123be6f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("hrmsportal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("hrmsportal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

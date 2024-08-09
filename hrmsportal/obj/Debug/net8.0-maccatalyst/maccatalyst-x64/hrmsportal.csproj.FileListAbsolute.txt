@@ -780,3 +780,4 @@
 /Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/hrmsportal.pdb
 /Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/hrmsportal.genruntimeconfig.cache
 /Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/ref/hrmsportal.dll
+/Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/hrmsportal.sourcelink.json
