@@ -1,4 +1,4 @@
-﻿namespace hrms_portal;
+﻿namespace hrmsportal;
 
 public partial class App : Application
 {

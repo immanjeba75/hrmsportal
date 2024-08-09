@@ -2,7 +2,7 @@
 using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 
-namespace hrms_portal;
+namespace hrmsportal;
 
 class Program : MauiApplication
 {

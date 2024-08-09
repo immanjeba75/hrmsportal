@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace hrms_portal;
+namespace hrmsportal;
 
 public static class MauiProgram
 {

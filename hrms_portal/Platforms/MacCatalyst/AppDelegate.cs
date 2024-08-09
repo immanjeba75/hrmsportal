@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace hrms_portal;
+namespace hrmsportal;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

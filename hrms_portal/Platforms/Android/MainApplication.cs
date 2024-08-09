@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace hrms_portal;
+namespace hrmsportal;
 
 [Application]
 public class MainApplication : MauiApplication
