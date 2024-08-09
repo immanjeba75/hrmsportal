@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace hrms_portal;
+namespace hrmsportal;
 
 public class Program
 {
