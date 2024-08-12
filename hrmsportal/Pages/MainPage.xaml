@@ -9,7 +9,7 @@
                 <GradientStop Color="#F5E0E4" Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
-        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+        <StackLayout  HorizontalOptions="Center" VerticalOptions="Center" Spacing="10" >
             <!-- Your login form content -->
             <!-- For example, a username and password entry -->
             <Entry Placeholder="Username" />
