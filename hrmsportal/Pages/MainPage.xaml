@@ -12,10 +12,10 @@
         <StackLayout  HorizontalOptions="Center" VerticalOptions="Center" Spacing="10" >
             <!-- Your login form content -->
             <!-- For example, a username and password entry -->
-            <Entry Placeholder="Username" />
-            <Entry Placeholder="Password" IsPassword="True" />
+            <Entry FontFamily="Poppins-Regular"  Placeholder="Username" />
+            <Entry FontFamily="Poppins-Regular" Placeholder="Password" IsPassword="True" />
             <!-- Add a button for submitting the login -->
-            <Button Text="Login" />
+            <Button FontFamily="Poppins-Regular" Text="Login" />
         </StackLayout>
     </Grid>
 </ContentPage>

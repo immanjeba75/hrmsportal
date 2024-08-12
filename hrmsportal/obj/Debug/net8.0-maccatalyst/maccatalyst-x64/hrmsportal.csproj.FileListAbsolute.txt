@@ -781,3 +781,11 @@
 /Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/hrmsportal.genruntimeconfig.cache
 /Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/ref/hrmsportal.dll
 /Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/hrmsportal.sourcelink.json
+/Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/resizetizer/f/Poppins-Bold.ttf
+/Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/resizetizer/f/Poppins-ExtraBold.ttf
+/Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/resizetizer/f/Poppins-Italic.ttf
+/Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/resizetizer/f/Poppins-Light.ttf
+/Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/resizetizer/f/Poppins-Medium.ttf
+/Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/resizetizer/f/Poppins-Regular.ttf
+/Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/resizetizer/f/Poppins-SemiBold.ttf
+/Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/resizetizer/f/Poppins-Thin.ttf
