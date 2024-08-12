@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="hrmsportal.Pages.MainPage"
+             Shell.NavBarIsVisible="False">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                <GradientStop Color="#EBE2EA" Offset="1.0" />
+                <GradientStop Color="#F5E0E4" Offset="1.0" />
+            </LinearGradientBrush>
+        </Grid.Background>
+        <!-- Your page content -->
+    </Grid>
+</ContentPage>
