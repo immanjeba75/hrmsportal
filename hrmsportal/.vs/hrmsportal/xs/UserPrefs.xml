@@ -1,11 +1,20 @@
 ﻿<Properties StartupConfiguration="{2744E68D-8253-4072-97F5-0C339F6F65CD}|Default">
   <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/MainPage.xaml">
+    <Files>
+      <File FileName="MainPage.xaml" Line="13" Column="35" />
+      <File FileName="Pages/MainPage.xaml.cs" Line="5" Column="2" />
+      <File FileName="AppShell.xaml" Line="4" Column="22" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="hrmsportal" expanded="True" selected="True">
-            <Node name="hrmsportal" expanded="True" />
+          <Node name="hrmsportal">
+            <Node name="hrmsportal">
+              <Node name="Pages" expanded="True">
+                <Node name="MainPage.xaml" selected="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
