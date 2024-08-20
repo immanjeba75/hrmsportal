@@ -11,101 +11,102 @@
             </LinearGradientBrush>
         </Grid.Background>
         
-        <StackLayout VerticalOptions="Start" HorizontalOptions="Center" Margin="0,100,0,0" >
-                <Image Source="logo_edi.png"  Margin="20,0,0,20" WidthRequest="250" />
-         </StackLayout>
-       <Frame VerticalOptions="Center" BackgroundColor="white" BorderColor="white" HorizontalOptions="Center" HasShadow="True" CornerRadius="30" Padding="0">
-            <Frame.Shadow>
-                <Shadow Brush="Gray" Opacity="0.2" Offset="10,10" Radius="30" />
-            </Frame.Shadow>
+        <!-- Parent StackLayout to contain both the image and the frame -->
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+            <!-- Image placed above the frame -->
+            <StackLayout VerticalOptions="Start" HorizontalOptions="Center" Margin="0,10,0,0">
+                <Image Source="logo_edi.png" Margin="20,0,0,20" WidthRequest="250" />
+            </StackLayout>
+            
+            <Frame BackgroundColor="white" BorderColor="white" HorizontalOptions="Center" HasShadow="True" CornerRadius="30" Padding="0">
+                <Frame.Shadow>
+                    <Shadow Brush="Gray" Opacity="0.2" Offset="10,10" Radius="30" />
+                </Frame.Shadow>
 
-            <StackLayout Padding="20" WidthRequest="500"  VerticalOptions="Center" HorizontalOptions="Center">
-                <Border Stroke="#000"
-                                    StrokeThickness=".5"
-                                    Background="#fff"
-                                    Padding="8,4"
-                                    HorizontalOptions="Center">
-                                <Border.StrokeShape>
-                                    <RoundRectangle CornerRadius="40"/>
-                                </Border.StrokeShape>
-                <FlexLayout HorizontalOptions="Center" WidthRequest="300"  JustifyContent="SpaceBetween">
-                    
-                        
-                    <Button Text="Login a" FontFamily="Poppins-Regular" Command="{Binding ShowLoginCommand}" WidthRequest="150" CornerRadius="22"  HorizontalOptions="Center" VerticalOptions="Center">
-                        <Button.Triggers>
-                            <DataTrigger TargetType="Button" Binding="{Binding IsLoginVisible}" Value="True">
-                                <Setter Property="BackgroundColor" Value="#665090" />
-                                <Setter Property="TextColor" Value="White" />
-                            </DataTrigger>
-                            <DataTrigger TargetType="Button" Binding="{Binding IsLoginVisible}" Value="False">
-                                <Setter Property="BackgroundColor" Value="White" />
-                                <Setter Property="TextColor" Value="Black" />
-                            </DataTrigger>
-                        </Button.Triggers>
-                    </Button>
-                        
-                    <Button Text="Sign Up" WidthRequest="150" CornerRadius="22"  HorizontalOptions="Center" VerticalOptions="Center" Command="{Binding ShowSignupCommand}">
-                        <Button.Triggers>
-                            <DataTrigger TargetType="Button" Binding="{Binding IsSignupVisible}" Value="True">
-                                <Setter Property="BackgroundColor" Value="#665090" />
-                                <Setter Property="TextColor" Value="White" />
-                            </DataTrigger>
-                            <DataTrigger TargetType="Button" Binding="{Binding IsSignupVisible}" Value="False">
-                                <Setter Property="BackgroundColor" Value="White" />
-                                <Setter Property="TextColor" Value="Black" />
-                            </DataTrigger>
-                        </Button.Triggers>
-                    </Button>
-                </FlexLayout>
-           </Border>
-                
-                <ContentView IsVisible="{Binding IsLoginVisible}" HorizontalOptions="Center" VerticalOptions="Center" MinimumHeightRequest="400">
-                    <FlexLayout Direction="Column" JustifyContent="Center" AlignItems="Center" >
-                        <StackLayout >
-                            <Label FontSize="18" Text="User ID" TextColor="Black" />
-                            <Border Stroke="#000"
-                                    StrokeThickness=".5"
-                                    Background="#fff"
-                                    Padding="8,4"
-                                    HorizontalOptions="Center">
-                                <Border.StrokeShape>
-                                    <RoundRectangle CornerRadius="10"/>
-                                </Border.StrokeShape>
-                                <Entry Placeholder="Enter your user id" TextColor="Black" MinimumWidthRequest="350" />
-                            </Border>
-                        </StackLayout>
-
-                        <StackLayout Margin="0, 8">
-                            <Label FontSize="18" Text="Password" TextColor="Black" />
-                            <Border Stroke="#000"
-                            StrokeThickness=".3"
+                <StackLayout Padding="20" WidthRequest="500" VerticalOptions="Center" HorizontalOptions="Center">
+                    <Border Stroke="#000"
+                            StrokeThickness=".5"
                             Background="#fff"
                             Padding="8,4"
                             HorizontalOptions="Center">
-                                <Border.StrokeShape>
-                                    <RoundRectangle CornerRadius="10"/>
-                                </Border.StrokeShape>
-                                <Entry WidthRequest="350" Placeholder="Enter your Password" IsPassword="True" />
-                            </Border>
-                        </StackLayout>
-                        <Button Text="Login" BackgroundColor="#665090" TextColor="White" FontSize="20" MinimumWidthRequest="370" MinimumHeightRequest="40" x:Name="btnLogin"  />
-                 </FlexLayout>
-                </ContentView>
+                        <Border.StrokeShape>
+                            <RoundRectangle CornerRadius="40"/>
+                        </Border.StrokeShape>
+                        <FlexLayout HorizontalOptions="Center" WidthRequest="300" JustifyContent="SpaceBetween">
+                            <Button Text="Login a" FontFamily="Poppins-Regular" Command="{Binding ShowLoginCommand}" WidthRequest="150" CornerRadius="22" HorizontalOptions="Center" VerticalOptions="Center">
+                                <Button.Triggers>
+                                    <DataTrigger TargetType="Button" Binding="{Binding IsLoginVisible}" Value="True">
+                                        <Setter Property="BackgroundColor" Value="#665090" />
+                                        <Setter Property="TextColor" Value="White" />
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Button" Binding="{Binding IsLoginVisible}" Value="False">
+                                        <Setter Property="BackgroundColor" Value="White" />
+                                        <Setter Property="TextColor" Value="Black" />
+                                    </DataTrigger>
+                                </Button.Triggers>
+                            </Button>
+                            
+                            <Button Text="Sign Up" WidthRequest="150" CornerRadius="22" HorizontalOptions="Center" VerticalOptions="Center" Command="{Binding ShowSignupCommand}">
+                                <Button.Triggers>
+                                    <DataTrigger TargetType="Button" Binding="{Binding IsSignupVisible}" Value="True">
+                                        <Setter Property="BackgroundColor" Value="#665090" />
+                                        <Setter Property="TextColor" Value="White" />
+                                    </DataTrigger>
+                                    <DataTrigger TargetType="Button" Binding="{Binding IsSignupVisible}" Value="False">
+                                        <Setter Property="BackgroundColor" Value="White" />
+                                        <Setter Property="TextColor" Value="Black" />
+                                    </DataTrigger>
+                                </Button.Triggers>
+                            </Button>
+                        </FlexLayout>
+                    </Border>
+                    
+                    <ContentView IsVisible="{Binding IsLoginVisible}" HorizontalOptions="Center" VerticalOptions="Center" MinimumHeightRequest="400">
+                        <FlexLayout Direction="Column" JustifyContent="Center" AlignItems="Center">
+                            <StackLayout>
+                                <Label FontSize="18" Text="User ID" TextColor="Black" />
+                                <Border Stroke="#000"
+                                        StrokeThickness=".5"
+                                        Background="#fff"
+                                        Padding="8,4"
+                                        HorizontalOptions="Center">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="10"/>
+                                    </Border.StrokeShape>
+                                    <Entry Placeholder="Enter your user id" TextColor="Black" MinimumWidthRequest="350" />
+                                </Border>
+                            </StackLayout>
 
-                <ContentView IsVisible="{Binding IsSignupVisible}">
-                    <StackLayout Padding="20">
-                        <Label Text="User ID" />
-                        <Entry Placeholder="Enter your user ID" />
-                        <Label Text="Password" Margin="0,20,0,0" />
-                        <Entry Placeholder="Enter your password" IsPassword="True" />
-                        <Label Text="Confirm Password" Margin="0,20,0,0" />
-                        <Entry Placeholder="Confirm your password" IsPassword="True" />
-                        <Button Text="Sign up" Margin="0,20,0,0" />
-                    </StackLayout>
-                </ContentView>
-            </StackLayout>
-        </Frame>
-            
-       </Grid>
-    
+                            <StackLayout Margin="0, 8">
+                                <Label FontSize="18" Text="Password" TextColor="Black" />
+                                <Border Stroke="#000"
+                                        StrokeThickness=".3"
+                                        Background="#fff"
+                                        Padding="8,4"
+                                        HorizontalOptions="Center">
+                                    <Border.StrokeShape>
+                                        <RoundRectangle CornerRadius="10"/>
+                                    </Border.StrokeShape>
+                                    <Entry WidthRequest="350" Placeholder="Enter your Password" IsPassword="True" />
+                                </Border>
+                            </StackLayout>
+                            <Button Text="Login" BackgroundColor="#665090" TextColor="White" FontSize="20" MinimumWidthRequest="370" MinimumHeightRequest="40" x:Name="btnLogin" />
+                        </FlexLayout>
+                    </ContentView>
+
+                    <ContentView IsVisible="{Binding IsSignupVisible}">
+                        <StackLayout Padding="20">
+                            <Label Text="User ID" />
+                            <Entry Placeholder="Enter your user ID" />
+                            <Label Text="Password" Margin="0,20,0,0" />
+                            <Entry Placeholder="Enter your password" IsPassword="True" />
+                            <Label Text="Confirm Password" Margin="0,20,0,0" />
+                            <Entry Placeholder="Confirm your password" IsPassword="True" />
+                            <Button Text="Sign up" Margin="0,20,0,0" />
+                        </StackLayout>
+                    </ContentView>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </Grid>
 </ContentPage>
