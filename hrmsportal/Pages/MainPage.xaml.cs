@@ -8,7 +8,10 @@ public partial class MainPage : ContentPage
 		InitializeComponent();
 	}
 
-	
+    private void btnLogin_Clicked(object sender, EventArgs e)
+    {
+		DisplayAlert("Login", "Login Clicked", "Ok");
+    }
 }
 
 
