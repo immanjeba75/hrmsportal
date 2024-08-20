@@ -95,9 +95,12 @@ bld/
 bin/
 obj/
 log/
+<<<<<<< HEAD
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+=======
+>>>>>>> 4896b53 (push)
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/

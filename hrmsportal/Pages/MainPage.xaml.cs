@@ -9,6 +9,7 @@
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public class MainPageViewModel : INotifyPropertyChanged
 =======
     public partial class MainPage : ContentPage
@@ -23,6 +24,11 @@
 
     void Entry_Focused(System.Object sender, Microsoft.Maui.Controls.FocusEventArgs e)
     {
+=======
+    private void btnLogin_Clicked(object sender, EventArgs e)
+    {
+		DisplayAlert("Login", "Login Clicked", "Ok");
+>>>>>>> 4896b53 (push)
 =======
     private void btnLogin_Clicked(object sender, EventArgs e)
     {

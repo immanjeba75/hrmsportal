@@ -24,6 +24,9 @@
         </Grid.Background>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 4896b53 (push)
         <FlexLayout Direction="Column" JustifyContent="Center" AlignItems="Center" WidthRequest="450" HeightRequest="300" Background="white">
             <StackLayout>
                 <Label FontSize="18" Text="User ID" TextColor="Black" />
@@ -54,6 +57,7 @@
             </StackLayout>
             <Button Text="Login" BackgroundColor="#665090" TextColor="White" FontSize="20" MinimumWidthRequest="370" MinimumHeightRequest="40" x:Name="btnLogin" Clicked="btnLogin_Clicked" />
         </FlexLayout>
+<<<<<<< HEAD
 =======
         <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
             <!-- Logo Image -->
@@ -301,5 +305,7 @@
             </Frame>
         </StackLayout>
 >>>>>>> bf76067 (Added Model, viewModel, Service)
+=======
+>>>>>>> 4896b53 (push)
     </Grid>
 </ContentPage>
