@@ -56,6 +56,9 @@
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
 		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
+		<MauiImage Update="Resources\Images\logo_edi.png" Resize="True" BaseSize="300,185" />
+		<MauiImage Update="Resources\Images\bg_img1.png" Resize="True" BaseSize="300,185" />
+		<MauiImage Update="Resources\Images\bg_img.svg" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -66,8 +69,9 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<PackageReference Include="CommunityToolkit.Maui" Version="9.0.2" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.80" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 	</ItemGroup>
 
@@ -75,10 +79,20 @@
 	  <None Remove="Pages\" />
 	  <None Remove="Models\" />
 	  <None Remove="ViewModels\" />
+	  <None Remove="Views\" />
+	  <None Remove="Resources\Images\EDI-logo-Red_Blue 1.png" />
+	  <None Remove="Resources\Images\bg_img.png" />
+	  <None Remove="Resources\Images\Desktop_application.svg" />
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="Pages\" />
 	  <Folder Include="Models\" />
 	  <Folder Include="ViewModels\" />
+	  <Folder Include="Views\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <BundleResource Include="Resources\Images\logo_edi.png" />
+	  <BundleResource Include="Resources\Images\bg_img1.png" />
+	  <BundleResource Include="Resources\Images\bg_img.svg" />
 	</ItemGroup>
 </Project>

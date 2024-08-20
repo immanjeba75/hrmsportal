@@ -34,6 +34,8 @@
 /Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../hrmsportal.app/Contents/MonoBundle/zh-Hans/Microsoft.Maui.Controls.resources.dll
 /Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../hrmsportal.app/Contents/MonoBundle/zh-Hant/Microsoft.Maui.Controls.resources.dll
 /Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../hrmsportal.app/Contents/MonoBundle/runtimeconfig.bin
+/Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../hrmsportal.app/Contents/MonoBundle/CommunityToolkit.Maui.dll
+/Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../hrmsportal.app/Contents/MonoBundle/CommunityToolkit.Maui.Core.dll
 /Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../hrmsportal.app/Contents/MonoBundle/Microsoft.Extensions.Configuration.dll
 /Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../hrmsportal.app/Contents/MonoBundle/Microsoft.Extensions.Configuration.Abstractions.dll
 /Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/bin/Debug/net8.0-maccatalyst/maccatalyst-x64/publish/../hrmsportal.app/Contents/MonoBundle/Microsoft.Extensions.DependencyInjection.dll

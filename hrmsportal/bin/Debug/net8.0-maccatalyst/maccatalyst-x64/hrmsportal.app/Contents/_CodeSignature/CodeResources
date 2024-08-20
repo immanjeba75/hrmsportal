@@ -10,7 +10,23 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		3ha9w5FdwOM9lg0YS9QLJh6xoLU=
+		eKjrsGTJycxOOBTFs0yeqwkbPRs=
+		</data>
+		<key>Resources/Images/bg_img.png</key>
+		<data>
+		XBldykujvOBk5w89OmLXqX1owuM=
+		</data>
+		<key>Resources/Images/bg_img.svg</key>
+		<data>
+		/dvvuVibo0fYkow70EQr4a1Jpn0=
+		</data>
+		<key>Resources/Images/bg_img1.png</key>
+		<data>
+		XBldykujvOBk5w89OmLXqX1owuM=
+		</data>
+		<key>Resources/Images/logo_edi.png</key>
+		<data>
+		SmaqiZ9pa2jY8JNqqINpFLGmYeI=
 		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
@@ -64,6 +80,30 @@
 		<data>
 		4AItvS9zmOpXznOun4BcjPv+fYo=
 		</data>
+		<key>Resources/bg_img.png</key>
+		<data>
+		tBeWGTkK9zcQ+6ZDbBHszG1uAV4=
+		</data>
+		<key>Resources/bg_img1.png</key>
+		<data>
+		XmY9R20fiYvuAFvLUa9HKnktvvo=
+		</data>
+		<key>Resources/bg_img1@2x.png</key>
+		<data>
+		18yelunejLLqyVytoeXIffev5Qg=
+		</data>
+		<key>Resources/bg_img1@3x.png</key>
+		<data>
+		b6D7ZKQR4tMRg9FGD33a6EhGDG8=
+		</data>
+		<key>Resources/bg_img@2x.png</key>
+		<data>
+		bR+YOg5R2uEX087ysRGN3IO7Q+I=
+		</data>
+		<key>Resources/bg_img@3x.png</key>
+		<data>
+		gqLvFbeJo3VXXr28uzejgT+bJf4=
+		</data>
 		<key>Resources/dotnet_bot.png</key>
 		<data>
 		egvqYQJu98U5bepNqiiYGWJc9As=
@@ -76,9 +116,35 @@
 		<data>
 		Zt+VE+uuJQUze/d9zd3r+NdrtDw=
 		</data>
+		<key>Resources/logo_edi.png</key>
+		<data>
+		qLRxF9C6yDIU+UbZW9uvkfgM7pM=
+		</data>
+		<key>Resources/logo_edi@2x.png</key>
+		<data>
+		7pRstn8f9Y+554jvi+1Yn6ZnJvY=
+		</data>
+		<key>Resources/logo_edi@3x.png</key>
+		<data>
+		pUFcbwvs8v6p7S4pz4iGZ619HXo=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>MonoBundle/CommunityToolkit.Maui.Core.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			sjksFJU2vtSTJ5J/x4pnvVdN+jhOotOFkelciGkFhxI=
+			</data>
+		</dict>
+		<key>MonoBundle/CommunityToolkit.Maui.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HO+pZfaDzwdnTqNSiE/OsD1UXIe1riUYL+EfWqFTx04=
+			</data>
+		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
 		<dict>
 			<key>hash2</key>
@@ -1455,14 +1521,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IJBqXpycpzJLfmN1JKHcpGhaqs1yiTDlIxUpG4JU3as=
+			ohbjuN/oT+iJgDIfMIDRhYiZe38l0ZvDDMFOSrtI7EE=
 			</data>
 		</dict>
 		<key>MonoBundle/hrmsportal.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mWSJrAtSe7zf9RptR5XsB8lnxpMWOtPnpondQArwQJw=
+			wvMA50Fz6qayut4yiiOyJieN9iPs7TZL5LUTRNBMoDQ=
 			</data>
 		</dict>
 		<key>MonoBundle/hu/Microsoft.Maui.Controls.resources.dll</key>
@@ -1658,7 +1724,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jUPeOjqgXay03Mn0GHLqJAUVK9yLiTZNqHvgW9TB3mQ=
+			v9tps8ew3xsUo07dOaaPVtTQOqKNOWle96AZAv46SoQ=
+			</data>
+		</dict>
+		<key>Resources/Images/bg_img.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5ivY88NhyNhUQ2w7kEEBJRJYjqr5wU7CIfdoraVsRs4=
+			</data>
+		</dict>
+		<key>Resources/Images/bg_img.svg</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4qrARqTAf/1j4QppNauItJLRGqe6fpT4u1n89qQJKH4=
+			</data>
+		</dict>
+		<key>Resources/Images/bg_img1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5ivY88NhyNhUQ2w7kEEBJRJYjqr5wU7CIfdoraVsRs4=
+			</data>
+		</dict>
+		<key>Resources/Images/logo_edi.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Iy3/QZ2DfkpyMpgJdwxsx4bUUGzEQX1xj9OO925gKn4=
 			</data>
 		</dict>
 		<key>Resources/MauiInfo.plist</key>
@@ -1752,6 +1846,48 @@
 			+oJpjlaG2rWZtBXqg7VmVFLw+dmqvTWUMU++AKoDPZc=
 			</data>
 		</dict>
+		<key>Resources/bg_img.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0TNewNHSkXVPem4kEgMHr4aYhDmwZH8p/X4sRNYzo2E=
+			</data>
+		</dict>
+		<key>Resources/bg_img1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8SA+LGTZzco8ndbhyZbupmeDa60WkErDxWr/zA5jl3w=
+			</data>
+		</dict>
+		<key>Resources/bg_img1@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dOM3uSfMVYCQ1KhdDztgnDGyFhlMhqVh/E39KlV1omA=
+			</data>
+		</dict>
+		<key>Resources/bg_img1@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Vzx8Zk4W2ydmeTrrhb+BKcftor7J1UZ1ATrc0TcNuy0=
+			</data>
+		</dict>
+		<key>Resources/bg_img@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8lUkSVnzx4vuygpvgL+As/DxwGJuKvqRd7krQIMNR7s=
+			</data>
+		</dict>
+		<key>Resources/bg_img@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V2Y0xbotvY7uIF+KABw2FfrobaXct9Sj1uZdFH2ks7A=
+			</data>
+		</dict>
 		<key>Resources/dotnet_bot.png</key>
 		<dict>
 			<key>hash2</key>
@@ -1771,6 +1907,27 @@
 			<key>hash2</key>
 			<data>
 			Up4t4C3+oRoTqJRc+zJSfhbhdg8R3zWbHkE+G9N4B9U=
+			</data>
+		</dict>
+		<key>Resources/logo_edi.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4CTE26uc4zLLnXuAxmKGspPliKAQHgSNpQMvzFfrgzA=
+			</data>
+		</dict>
+		<key>Resources/logo_edi@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4L5+iCUkg6cawRRmMAQBv8GwphAyj9oaJ5CgkUgTEtw=
+			</data>
+		</dict>
+		<key>Resources/logo_edi@3x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			VlsvqcEzHEtPUkhuuZr/6x06ypJC80WU5hYK4pazrs4=
 			</data>
 		</dict>
 	</dict>

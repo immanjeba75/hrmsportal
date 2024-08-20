@@ -45,3 +45,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = hrmsportal.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/DELL4/MAUI/Internal/hrmsportal/hrmsportal/Views/CardView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = hrmsportal.Views.CardView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/CardView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/CardView.xaml
