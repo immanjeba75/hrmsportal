@@ -15,7 +15,7 @@
     </ContentPage.Resources>
 
     <Grid>
-        <!-- Grid background -->
+        <!-- Grid Background -->
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
                 <GradientStop Color="#EBE2EA" Offset="0.0" />
