@@ -10,11 +10,11 @@
 		</data>
 		<key>Resources/Assets.car</key>
 		<data>
-		eKjrsGTJycxOOBTFs0yeqwkbPRs=
+		3ha9w5FdwOM9lg0YS9QLJh6xoLU=
 		</data>
 		<key>Resources/MauiInfo.plist</key>
 		<data>
-		iEtuUGCV6JM3gxS/pO33swhmpp8=
+		TpcMHtd2YQXU0eOWCtZI4ee5sJs=
 		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
@@ -27,6 +27,38 @@
 		<key>Resources/OpenSans-Semibold.ttf</key>
 		<data>
 		pFKcBDfE6DLAOwHdi8gbo6uDkyo=
+		</data>
+		<key>Resources/Poppins-Bold.ttf</key>
+		<data>
+		h1zwzs1ke88i551jPYaMGx7Jjfo=
+		</data>
+		<key>Resources/Poppins-ExtraBold.ttf</key>
+		<data>
+		S1wHUPBzq9V2QToImNO5Wtrxmcg=
+		</data>
+		<key>Resources/Poppins-Italic.ttf</key>
+		<data>
+		4r/NVgFsPJFSIe8cX8Ghewd265E=
+		</data>
+		<key>Resources/Poppins-Light.ttf</key>
+		<data>
+		4kepIVjhEvi/e2OMjZU4HWawDbs=
+		</data>
+		<key>Resources/Poppins-Medium.ttf</key>
+		<data>
+		KD8htE772/J2uoAr4tlJo2u8QjM=
+		</data>
+		<key>Resources/Poppins-Regular.ttf</key>
+		<data>
+		/dMALn2BTuR8HBuEh8csa7s6LQA=
+		</data>
+		<key>Resources/Poppins-SemiBold.ttf</key>
+		<data>
+		ikrOk5LQa8t/jqL1FpsH5MODqQ0=
+		</data>
+		<key>Resources/Poppins-Thin.ttf</key>
+		<data>
+		CbpNzVUJyAhb+IxmXcxRy9/O0ns=
 		</data>
 		<key>Resources/appicon.icns</key>
 		<data>
@@ -1423,14 +1455,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lo67FqOGReiFpM8XSwMDtccotS4Cty/5dU3FkEP3Vf0=
+			IJBqXpycpzJLfmN1JKHcpGhaqs1yiTDlIxUpG4JU3as=
 			</data>
 		</dict>
 		<key>MonoBundle/hrmsportal.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YXA/K/6oc1FnQkZYCaObNWLXXu2c6ZEMZ0D0K645yQU=
+			mWSJrAtSe7zf9RptR5XsB8lnxpMWOtPnpondQArwQJw=
 			</data>
 		</dict>
 		<key>MonoBundle/hu/Microsoft.Maui.Controls.resources.dll</key>
@@ -1626,14 +1658,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v9tps8ew3xsUo07dOaaPVtTQOqKNOWle96AZAv46SoQ=
+			jUPeOjqgXay03Mn0GHLqJAUVK9yLiTZNqHvgW9TB3mQ=
 			</data>
 		</dict>
 		<key>Resources/MauiInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tx0KXqEC+DvcCGyogQTEQWHcCWJYYqH24NtPwhpQEjo=
+			CKvRWwce4fVdOLDxoXr/77gu6WaOX5x0NcI71c8yYAg=
 			</data>
 		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
@@ -1655,6 +1687,62 @@
 			<key>hash2</key>
 			<data>
 			elPqNM1z9LPe1HvnMgMAcsHJ39fMJlRG8hKZ9u0fi54=
+			</data>
+		</dict>
+		<key>Resources/Poppins-Bold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			chlUfuJTNMusD+SzrPC/Yx5I67YixxrwOO2qplLGCHU=
+			</data>
+		</dict>
+		<key>Resources/Poppins-ExtraBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lKIV+I+96Qmcs70UMbgUKromrzb4dx7/7FapS8Oq0f0=
+			</data>
+		</dict>
+		<key>Resources/Poppins-Italic.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			MiXOxqAYMQSX6p7hFqpDsqgzRk/tYVbc65o6RCS7hhM=
+			</data>
+		</dict>
+		<key>Resources/Poppins-Light.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZH8BTTaCLvfgQT/7tlWYrgy1f7eY5jXGORLJPZTrNWo=
+			</data>
+		</dict>
+		<key>Resources/Poppins-Medium.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jZCYg96BNE4PvP7zDpMYcuktmu7N+Fttz24LKMB46Y4=
+			</data>
+		</dict>
+		<key>Resources/Poppins-Regular.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cH/cXIurV6kAYcao7Xtw1f+4L8gQ6ZTnn5C6zokMJVo=
+			</data>
+		</dict>
+		<key>Resources/Poppins-SemiBold.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JIwCRLNQ7GiICZaqa+bXeWJ0tJmS1fy77+JRkGqk6jY=
+			</data>
+		</dict>
+		<key>Resources/Poppins-Thin.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			lYdfnvDRLVy91khSkzpXgCHIEM7CR/dWQgfgRs9scok=
 			</data>
 		</dict>
 		<key>Resources/appicon.icns</key>

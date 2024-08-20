@@ -9,36 +9,13 @@
                 <GradientStop Color="#F5E0E4" Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
-
-        <FlexLayout Direction="Column" JustifyContent="Center" AlignItems="Center" WidthRequest="450" HeightRequest="300" Background="white">
-            <StackLayout>
-                <Label FontSize="18" Text="User ID" TextColor="Black" />
-                <Border Stroke="#000"
-                        StrokeThickness=".5"
-                        Background="#fff"
-                        Padding="8,4"
-                        HorizontalOptions="Center">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="10"/>
-                    </Border.StrokeShape>
-                    <Entry Placeholder="Enter your user id" TextColor="Black" MinimumWidthRequest="350" />
-                </Border>
-            </StackLayout>
-
-            <StackLayout Margin="0, 8">
-                <Label FontSize="18" Text="Password" TextColor="Black" />
-                <Border Stroke="#000"
-                StrokeThickness=".5"
-                Background="#fff"
-                Padding="8,4"
-                HorizontalOptions="Center">
-                    <Border.StrokeShape>
-                        <RoundRectangle CornerRadius="10"/>
-                    </Border.StrokeShape>
-                    <Entry WidthRequest="350" Placeholder="Enter your Password" IsPassword="True" />
-                </Border>
-            </StackLayout>
-            <Button Text="Login" BackgroundColor="#665090" TextColor="White" FontSize="20" MinimumWidthRequest="370" MinimumHeightRequest="40" x:Name="btnLogin" Clicked="btnLogin_Clicked" />
-        </FlexLayout>
+        <StackLayout  HorizontalOptions="Center" VerticalOptions="Center" Spacing="10" >
+            <!-- Your login form content -->
+            <!-- For example, a username and password entry -->
+            <Entry FontFamily="Poppins-Regular"  Placeholder="Username" />
+            <Entry FontFamily="Poppins-Regular" Placeholder="Password" IsPassword="True" />
+            <!-- Add a button for submitting the login -->
+            <Button FontFamily="Poppins-Regular" Text="Login" />
+        </StackLayout>
     </Grid>
 </ContentPage>
