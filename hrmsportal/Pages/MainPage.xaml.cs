@@ -1,9 +1,6 @@
-﻿namespace hrmsportal.Pages;
-using System.ComponentModel;
-using System.Windows.Input;
-using Microsoft.Maui.Controls;
-public partial class MainPage : ContentPage
+﻿namespace hrmsportal.Pages
 {
+<<<<<<< HEAD
 	
 	public MainPage()
 	{
@@ -13,62 +10,16 @@ public partial class MainPage : ContentPage
 
 <<<<<<< HEAD
     public class MainPageViewModel : INotifyPropertyChanged
+=======
+    public partial class MainPage : ContentPage
+>>>>>>> bf76067 (Added Model, viewModel, Service)
     {
-        private bool _isLoginVisible;
-        private bool _isSignupVisible;
-
-        public bool IsLoginVisible
+        public MainPage()
         {
-            get => _isLoginVisible;
-            set
-            {
-                _isLoginVisible = value;
-                OnPropertyChanged(nameof(IsLoginVisible));
-            }
-        }
-
-        public bool IsSignupVisible
-        {
-            get => _isSignupVisible;
-            set
-            {
-                _isSignupVisible = value;
-                OnPropertyChanged(nameof(IsSignupVisible));
-            }
-        }
-
-        public ICommand ShowLoginCommand { get; }
-        public ICommand ShowSignupCommand { get; }
-
-        public MainPageViewModel()
-        {
-            // Set initial visibility
-            IsLoginVisible = true;
-            IsSignupVisible = false;
-
-            ShowLoginCommand = new Command(ShowLogin);
-            ShowSignupCommand = new Command(ShowSignup);
-        }
-
-        private void ShowLogin()
-        {
-            IsLoginVisible = true;
-            IsSignupVisible = false;
-        }
-
-        private void ShowSignup()
-        {
-            IsLoginVisible = false;
-            IsSignupVisible = true;
-        }
-
-        public event PropertyChangedEventHandler? PropertyChanged;
-
-        protected virtual void OnPropertyChanged(string propertyName)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            InitializeComponent();
         }
     }
+<<<<<<< HEAD
 
     void Entry_Focused(System.Object sender, Microsoft.Maui.Controls.FocusEventArgs e)
     {
@@ -81,3 +32,6 @@ public partial class MainPage : ContentPage
 }
 
 
+=======
+}
+>>>>>>> bf76067 (Added Model, viewModel, Service)
