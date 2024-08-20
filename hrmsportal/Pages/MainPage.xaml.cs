@@ -11,6 +11,7 @@ public partial class MainPage : ContentPage
         BindingContext = new MainPageViewModel();
     }
 
+<<<<<<< HEAD
     public class MainPageViewModel : INotifyPropertyChanged
     {
         private bool _isLoginVisible;
@@ -71,6 +72,11 @@ public partial class MainPage : ContentPage
 
     void Entry_Focused(System.Object sender, Microsoft.Maui.Controls.FocusEventArgs e)
     {
+=======
+    private void btnLogin_Clicked(object sender, EventArgs e)
+    {
+		DisplayAlert("Login", "Login Clicked", "Ok");
+>>>>>>> 4896b53 (push)
     }
 }
 
