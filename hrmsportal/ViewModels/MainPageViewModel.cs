@@ -8,7 +8,7 @@ namespace hrmsportal.ViewModels
         private readonly AuthService _authService;
 
         [ObservableProperty]
-        private string _username;
+        private string _username;ed
 
         [ObservableProperty]
         private string _password;
