@@ -32924,11 +32924,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vignesh.r\\source\\repos\\immanjeba75\\hrmsportal\\hrmsportal\\hrmsportal.csproj",
+      "projectUniqueName": "C:\\Users\\vignesh.r\\source\\repos\\hrmsportal\\hrmsportal\\hrmsportal.csproj",
       "projectName": "hrmsportal",
-      "projectPath": "C:\\Users\\vignesh.r\\source\\repos\\immanjeba75\\hrmsportal\\hrmsportal\\hrmsportal.csproj",
+      "projectPath": "C:\\Users\\vignesh.r\\source\\repos\\hrmsportal\\hrmsportal\\hrmsportal.csproj",
       "packagesPath": "C:\\Users\\vignesh.r\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vignesh.r\\source\\repos\\immanjeba75\\hrmsportal\\hrmsportal\\obj\\",
+      "outputPath": "C:\\Users\\vignesh.r\\source\\repos\\hrmsportal\\hrmsportal\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
