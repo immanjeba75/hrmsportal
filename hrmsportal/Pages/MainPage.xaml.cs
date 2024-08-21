@@ -1,14 +1,10 @@
-﻿namespace hrmsportal.Pages;
-
-public partial class MainPage : ContentPage
+﻿namespace hrmsportal.Pages
 {
-	
-	public MainPage()
-	{
-		InitializeComponent();
-	}
-
-	
+    public partial class MainPage : ContentPage
+    {
+        public MainPage()
+        {
+            InitializeComponent();
+        }
+    }
 }
-
-
