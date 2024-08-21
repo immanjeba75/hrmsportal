@@ -8,17 +8,20 @@ namespace hrmsportal.ViewModels
         private readonly AuthService _authService;
 
         [ObservableProperty]
-        private string _username;
+        private string _username;ed
 
         [ObservableProperty]
         private string _password;
         
         [ObservableProperty]
         private bool _isLoginVisible = true;
+        
+        [ObservableProperty]
+        private bool _isSignupVisible = false;
 
         [ObservableProperty]
         [NotifyCanExecuteChangedFor(nameof(LoginCommand))]
-        private bool _isBusy = false;
+        private bool _isBusy;
 
         public MainPageViewModel()
         {
@@ -29,12 +32,14 @@ namespace hrmsportal.ViewModels
         private void ShowLogin()
         {
             IsLoginVisible = true;
+            IsSignupVisible = false;
         }
         
         [RelayCommand]
         private void ShowSignup()
         {
             IsLoginVisible = false;
+            IsSignupVisible = true;
         }
 
         [RelayCommand(CanExecute = nameof(CanLogin))]

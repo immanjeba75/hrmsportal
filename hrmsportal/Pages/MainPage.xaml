@@ -15,20 +15,53 @@
     </ContentPage.Resources>
 
     <Grid>
-        <!-- Grid Background -->
+        <!-- Grid background -->
         <Grid.Background>
             <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
                 <GradientStop Color="#EBE2EA" Offset="0.0" />
                 <GradientStop Color="#F5E0E4" Offset="1.0" />
             </LinearGradientBrush>
         </Grid.Background>
-
         <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
             <!-- Logo Image -->
             <StackLayout VerticalOptions="Start" HorizontalOptions="Center" Margin="0,10,0,0">
                 <Image Source="logo_edi.png" Margin="20,0,0,20" WidthRequest="250" />
             </StackLayout>
+        <FlexLayout Direction="Column" JustifyContent="Center" AlignItems="Center" WidthRequest="450" HeightRequest="300" Background="white">
+            <StackLayout>
+                <Label FontSize="18" Text="User ID" TextColor="Black" />
+                <Border Stroke="#000"
+                        StrokeThickness=".5"
+                        Background="#fff"
+                        Padding="8,4"
+                        HorizontalOptions="Center">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"/>
+                    </Border.StrokeShape>
+                    <Entry Placeholder="Enter your user id" TextColor="Black" MinimumWidthRequest="350" />
+                </Border>
+            </StackLayout>
 
+            <StackLayout Margin="0, 8">
+                <Label FontSize="18" Text="Password" TextColor="Black" />
+                <Border Stroke="#000"
+                StrokeThickness=".5"
+                Background="#fff"
+                Padding="8,4"
+                HorizontalOptions="Center">
+                    <Border.StrokeShape>
+                        <RoundRectangle CornerRadius="10"/>
+                    </Border.StrokeShape>
+                    <Entry WidthRequest="350" Placeholder="Enter your Password" IsPassword="True" />
+                </Border>
+            </StackLayout>
+            <Button Text="Login" BackgroundColor="#665090" TextColor="White" FontSize="20" MinimumWidthRequest="370" MinimumHeightRequest="40" x:Name="btnLogin" Clicked="btnLogin_Clicked" />
+        </FlexLayout>
+        <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Spacing="10">
+            <!-- Logo Image -->
+            <StackLayout VerticalOptions="Start" HorizontalOptions="Center" Margin="0,10,0,0">
+                <Image Source="logo_edi.png" Margin="20,0,0,20" WidthRequest="250" />
+            </StackLayout>
             <Frame BackgroundColor="white" BorderColor="white" HorizontalOptions="Center" HasShadow="True" CornerRadius="30" Padding="0">
                 <!-- Frame setup -->
                 <Frame.Shadow>
@@ -97,7 +130,6 @@
                                 </Border>
                             </StackLayout>
 
-                            <ActivityIndicator IsRunning="true" IsVisible="{Binding IsBusy}" Color="#665090" Margin="0, 0, 0, 8" />
                             <Button Text="Login" 
                                     BackgroundColor="#665090" 
                                     TextColor="White" 
@@ -106,11 +138,13 @@
                                     MinimumHeightRequest="40" 
                                     Command="{Binding LoginCommand}" 
                                     IsEnabled="{Binding IsBusy, Converter={StaticResource InvertedBoolConverter}}" />
+
+                            <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}" />
                         </FlexLayout>
                     </ContentView>
 
                     <!-- Signup form -->
-                    <ContentView IsVisible="{Binding IsLoginVisible, Converter={StaticResource InvertedBoolConverter}}" HorizontalOptions="Center" VerticalOptions="Center"  MinimumHeightRequest="600" >
+                    <ContentView IsVisible="{Binding IsSignupVisible}" HorizontalOptions="Center" VerticalOptions="Center"  MinimumHeightRequest="600" >
                     <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="40">
                         <FlexLayout Direction="Row" JustifyContent="SpaceBetween" AlignItems="Center">
                             <StackLayout>

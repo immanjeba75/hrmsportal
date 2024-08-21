@@ -98,6 +98,15 @@ bld/
 bin/
 obj/
 log/
+
+# Make sure this pattern works for your specific directory
+hrmsportal/[Bb]in/
+hrmsportal/[Oo]bj/
+
+# Ensure there are no overrides or mistaken patterns allowing bin and obj to be tracked
+!hrmsportal/[Bb]in/**/
+!hrmsportal/[Oo]bj/**/
+
 # Visual Studio 2015/2017 cache/options directory
 .vs/
 bin
