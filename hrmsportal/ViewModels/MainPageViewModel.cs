@@ -18,7 +18,7 @@ namespace hrmsportal.ViewModels
 
         [ObservableProperty]
         [NotifyCanExecuteChangedFor(nameof(LoginCommand))]
-        private bool _isBusy;
+        private bool _isBusy = false;
 
         public MainPageViewModel()
         {

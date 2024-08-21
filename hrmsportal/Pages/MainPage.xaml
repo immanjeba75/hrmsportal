@@ -97,6 +97,7 @@
                                 </Border>
                             </StackLayout>
 
+                            <ActivityIndicator IsRunning="true" IsVisible="{Binding IsBusy}" Color="#665090" Margin="0, 0, 0, 8" />
                             <Button Text="Login" 
                                     BackgroundColor="#665090" 
                                     TextColor="White" 
@@ -105,8 +106,6 @@
                                     MinimumHeightRequest="40" 
                                     Command="{Binding LoginCommand}" 
                                     IsEnabled="{Binding IsBusy, Converter={StaticResource InvertedBoolConverter}}" />
-
-                            <ActivityIndicator IsRunning="{Binding IsBusy}" IsVisible="{Binding IsBusy}" />
                         </FlexLayout>
                     </ContentView>
 
