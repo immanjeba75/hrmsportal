@@ -15,9 +15,6 @@ namespace hrmsportal.ViewModels
         
         [ObservableProperty]
         private bool _isLoginVisible = true;
-        
-        [ObservableProperty]
-        private bool _isSignupVisible = false;
 
         [ObservableProperty]
         [NotifyCanExecuteChangedFor(nameof(LoginCommand))]
@@ -32,14 +29,12 @@ namespace hrmsportal.ViewModels
         private void ShowLogin()
         {
             IsLoginVisible = true;
-            IsSignupVisible = false;
         }
         
         [RelayCommand]
         private void ShowSignup()
         {
             IsLoginVisible = false;
-            IsSignupVisible = true;
         }
 
         [RelayCommand(CanExecute = nameof(CanLogin))]

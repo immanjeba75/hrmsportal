@@ -61,11 +61,11 @@
 
                             <Button Text="Sign Up" WidthRequest="150" CornerRadius="22" HorizontalOptions="Center" VerticalOptions="Center" Command="{Binding ShowSignupCommand}">
                                 <Button.Triggers>
-                                    <DataTrigger TargetType="Button" Binding="{Binding IsSignupVisible}" Value="True">
+                                    <DataTrigger TargetType="Button" Binding="{Binding IsLoginVisible}" Value="False">
                                         <Setter Property="BackgroundColor" Value="#665090" />
                                         <Setter Property="TextColor" Value="White" />
                                     </DataTrigger>
-                                    <DataTrigger TargetType="Button" Binding="{Binding IsSignupVisible}" Value="False">
+                                    <DataTrigger TargetType="Button" Binding="{Binding IsLoginVisible}" Value="True">
                                         <Setter Property="BackgroundColor" Value="White" />
                                         <Setter Property="TextColor" Value="Black" />
                                     </DataTrigger>
@@ -111,7 +111,7 @@
                     </ContentView>
 
                     <!-- Signup form -->
-                    <ContentView IsVisible="{Binding IsSignupVisible}" HorizontalOptions="Center" VerticalOptions="Center"  MinimumHeightRequest="600" >
+                    <ContentView IsVisible="{Binding IsLoginVisible, Converter={StaticResource InvertedBoolConverter}}" HorizontalOptions="Center" VerticalOptions="Center"  MinimumHeightRequest="600" >
                     <StackLayout HorizontalOptions="Center" VerticalOptions="Center" Spacing="40">
                         <FlexLayout Direction="Row" JustifyContent="SpaceBetween" AlignItems="Center">
                             <StackLayout>
